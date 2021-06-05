@@ -20,7 +20,7 @@
 A real-time workout tracker, that allows the user to create a new workout, add to an existing workout, and view your exercise statistics.
 
 ## Demo
-![Screencast Demo](./assets/img/)
+![Screencast Demo](./assets/img/tracker.gif)
 
 ## Youtube
 Watch a demo of the application on [Youtube. WorkoutTacker Video](https://www.youtube.com/watch?v=kLWtbrKn7qc)
@@ -29,11 +29,11 @@ Watch a demo of the application on [Youtube. WorkoutTacker Video](https://www.yo
 
 | ***Screenshot***                   | ***Screenshot***                      |
 | :--------------------------------: | :-----------------------------------: |
-| <img src="./assets/img/">      | <img src="./assets/img/">        |
+| <img src="./assets/img/1.png">     | <img src="./assets/img/2.png">        |
 
 | ***Screenshot***                   | ***Screenshot***                      |
 | :--------------------------------: | :-----------------------------------: |
-| <img src="./assets/img/">    | <img src="../assets/img/">   |
+| <img src="./assets/img/3.png">     | <img src="./assets/img/4.png">       |
 
 
 ## Installations

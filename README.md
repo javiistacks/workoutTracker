@@ -12,47 +12,41 @@
 * [Usage](#usage)
 * [Created by](#created-by)
 * [Repository](#repository)
+* [Deployment](#deployment)
 * [License](#license)
 
 
 ## Introduction
-A mysql database and application backend for an e-commerce site. 
+A real-time workout tracker, that allows the user to create a new workout, add to an existing workout, and view your exercise statistics.
 
 
 ## Demo
-Watch a demo of the application on [Youtube. Object-Relational Mapping (ORM).](https://www.youtube.com/watch?v=g1CUTYyp-LI)
 
 
 ## Installations
 Type the following npm install commands: 
 ```
-1. npm i dotenv express mysql2 sequelize
-2. npm init -y
+1. npm i
 ```
-on the command line while in the Developer folder. 
-
-* [npm](https://docs.npmjs.com/cli/v7/commands/npm-install)
-  * npm is the package manager for the Node JavaScript platform. 
-
-* [dotenv](https://www.npmjs.com/package/dotenv)
-  * Enables the application to access environment variables.
+on the command line while in the workoutTracker folder. This will download all dependencies. 
+ 
+* [mongoose](https://www.npmjs.com/package/mongoose)
+  * Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.
 
 * [express](https://www.npmjs.com/package/express)
   * Allows to dynamically render HTML Pages based on passing arguments to templates.
   
-* [mysql2](https://www.npmjs.com/package/mysql2)
-  * Enables the application to create a connection to the mysql database.
+* [morgan](https://www.npmjs.com/package/morgan)
+  * HTTP request logger middleware for node.js.
   
-* [sequelize](https://www.npmjs.com/package/sequelize)
-  * Sequelize is a promise-based Node.js ORM tool for MySQL.
 
 ## Usage
 
 `👨🏽‍💻Open in Integrated Terminal`
 
-To Run application while in the developer folder type 
+To Run application locally while in the workoutTacker folder type 
 ```
-npm start 
+nodemon server.js 
 ```
 
 ## Created by
@@ -61,8 +55,12 @@ npm start
 
 ## Repository
 ### Github Repository
-Repository at [e-commerce](https://github.com/javiistacks/workouttracker)
+Repository at [workoutTracker](https://github.com/javiistacks/workouttracker)
 
+## Deployment
+Deployment was made possible with Heroku. 
+Check out my workout Tracker at the link below.
+* [workoutTracker] (https://peaceful-depths-95115.herokuapp.com/?id=60bbf44080773000156a4913)
 
 ## License
 

@@ -19,8 +19,21 @@
 ## Introduction
 A real-time workout tracker, that allows the user to create a new workout, add to an existing workout, and view your exercise statistics.
 
-
 ## Demo
+![Screencast Demo](./assets/img/)
+
+## Youtube
+Watch a demo of the application on [Youtube. WorkoutTacker Video](https://www.youtube.com/watch?v=kLWtbrKn7qc)
+
+## Samples
+
+| ***Screenshot***                   | ***Screenshot***                      |
+| :--------------------------------: | :-----------------------------------: |
+| <img src="./assets/img/">      | <img src="./assets/img/">        |
+
+| ***Screenshot***                   | ***Screenshot***                      |
+| :--------------------------------: | :-----------------------------------: |
+| <img src="./assets/img/">    | <img src="../assets/img/">   |
 
 
 ## Installations

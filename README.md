@@ -1,61 +1,95 @@
 # Unit 17 NoSQL Homework: Workout Tracker
+[![Generic badge](https://img.shields.io/badge/license-MIT-<COLOR>.svg)](#license)
+![GitHub language count](https://img.shields.io/github/languages/count/javiistacks/workouttracker)
+![GitHub top language](https://img.shields.io/github/languages/top/javiistacks/workouttracker)
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+# workoutTracker
 
-## User Story
+## Table of Contents
+* [Introduction](#introduction)
+* [Demo](#demo)
+* [Installations](#installations)
+* [Usage](#usage)
+* [Created by](#created-by)
+* [Repository](#repository)
+* [License](#license)
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
-## Business Context
+## Introduction
+A mysql database and application backend for an e-commerce site. 
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
 
-## Acceptance Criteria
+## Demo
+Watch a demo of the application on [Youtube. Object-Relational Mapping (ORM).](https://www.youtube.com/watch?v=g1CUTYyp-LI)
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
 
-The user should be able to:
+## Installations
+Type the following npm install commands: 
+```
+1. npm i dotenv express mysql2 sequelize
+2. npm init -y
+```
+on the command line while in the Developer folder. 
 
-  * Add exercises to the most recent workout plan.
+* [npm](https://docs.npmjs.com/cli/v7/commands/npm-install)
+  * npm is the package manager for the Node JavaScript platform. 
 
-  * Add new exercises to a new workout plan.
+* [dotenv](https://www.npmjs.com/package/dotenv)
+  * Enables the application to access environment variables.
 
-  * View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
+* [express](https://www.npmjs.com/package/express)
+  * Allows to dynamically render HTML Pages based on passing arguments to templates.
+  
+* [mysql2](https://www.npmjs.com/package/mysql2)
+  * Enables the application to create a connection to the mysql database.
+  
+* [sequelize](https://www.npmjs.com/package/sequelize)
+  * Sequelize is a promise-based Node.js ORM tool for MySQL.
 
-  * View the total duration of each workout from the past seven workouts on the `stats` page.
+## Usage
 
-> **Important:** Look into using a MongoDB aggregate function to dynamically add up and return the total duration for each workout. Check out the [MongoDB documentation on the $addFields](https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/), the [MongoDB documentation on the $sum operator](https://docs.mongodb.com/manual/reference/operator/aggregation/sum/), and the [Mongoose documentation on aggregate functions](https://mongoosejs.com/docs/api.html#aggregate_Aggregate) to learn how it can be accomplished.
+`👨🏽‍💻Open in Integrated Terminal`
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
+To Run application while in the developer folder type 
+```
+npm start 
+```
 
-  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
+## Created by
+* [Javiann Marrero](https://github.com/javiistacks)
 
-  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
 
-## Commit Early and Often
+## Repository
+### Github Repository
+Repository at [e-commerce](https://github.com/javiistacks/workouttracker)
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+## License
 
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+Copyright (c) Javiann Marrero. All rights reserved.<br>
+Please be kind and change content if you wish to use this code.
 
-Follow these guidelines for committing:
+<details><summary>Licensed under the MIT License</summary>
 
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+Copyright (c) 2021 - present | Javiann Marrero
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+<blockquote>
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We want you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL to the deployed application
-
-* The URL to the GitHub repository
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</blockquote>
+</details>

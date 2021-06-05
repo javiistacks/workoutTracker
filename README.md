@@ -8,6 +8,7 @@
 ## Table of Contents
 * [Introduction](#introduction)
 * [Demo](#demo)
+* [Samples](#samples)
 * [Installations](#installations)
 * [Usage](#usage)
 * [Created by](#created-by)
@@ -23,7 +24,7 @@ A real-time workout tracker, that allows the user to create a new workout, add t
 ![Screencast Demo](./assets/img/tracker.gif)
 
 ## Youtube
-Watch a demo of the application on [Youtube. WorkoutTacker Video](https://www.youtube.com/watch?v=kLWtbrKn7qc)
+Watch a demo of the application on [Youtube. WorkoutTracker Video.](https://www.youtube.com/watch?v=kLWtbrKn7qc)
 
 ## Samples
 

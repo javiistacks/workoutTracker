@@ -60,7 +60,8 @@ Repository at [workoutTracker](https://github.com/javiistacks/workouttracker)
 ## Deployment
 Deployment was made possible with Heroku. 
 Check out my workout Tracker at the link below.
-* [workoutTracker] (https://peaceful-depths-95115.herokuapp.com/?id=60bbf44080773000156a4913)
+
+* [workoutTracker](https://peaceful-depths-95115.herokuapp.com/?id=60bbf44080773000156a4913/)
 
 ## License
 
